@@ -19,5 +19,9 @@ public class ApplicationRun1 {
         PrivateCat ZdrCat = new PrivateCat("猫小","白花猫",3);
         System.out.println("ZdrCat = " + ZdrCat);
 
+        PrivateCat.getPlotInstance();
+        System.out.println("小区名是" +PrivateCat.getPlotInstance());
+
+
     }
 }

@@ -23,7 +23,13 @@ public class ApplicationRun {
         HuangChaoJianCat.play();
 
         ZhuDongRongCat.sleep();
+
+
+
+        System.out.println("这些猫属于" + Cats.plot + "小区");
+        Cats.injection();
     }
+
 
 
 }

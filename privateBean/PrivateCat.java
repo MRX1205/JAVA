@@ -9,9 +9,20 @@ import lombok.ToString;
 @Setter
 @ToString
 public class PrivateCat {
+    // 下面的this 指向对象的属性名
+    // 即String name
     public String name;
     private int age;
     public String variety;
+    // 私密的静态变量 通过静态函数调用
+    private static String plot = "NanG";
+
+
+
+
+    public static String getPlotInstance() {
+        return plot;
+    }
 
     @Override
     public String toString() {

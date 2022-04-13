@@ -21,7 +21,7 @@ public class ArraysBase
 
         for(int e:array_1)
         {
-            System.out.print(" e="+e);
+            System.out.print(" e ="+e);
         }
 
 
