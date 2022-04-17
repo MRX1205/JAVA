@@ -25,11 +25,29 @@ public class Application {
         System.out.println("zdrCatVariety = " + zdrcat.getVariety());
 
         hcjdog.eat();
+        hcjdog.setFood("狗粮");
+        zdrcat.setFood("猫粮");
         zdrcat.sleep();
         Cats.getBehai();
         Dogs.getBehia();
 
         BigCat bigcat = BigCat.getbigCat();
         bigcat.getReason();
-   }
+
+        hcjdog.eat();
+        zdrcat.eat();
+
+
+        hcjdog.barking();
+        zdrcat.barking();
+
+        Dogs dog1 = new Dogs("Jerry",2);
+        Cats cat1 = new Cats("蓝猫",3);
+//        Animal animal = new Animal("jack","拉布拉多",3,"狗粮");
+
+        // 获取类小区的名字
+        System.out.println("Dogs.Community = " + Dogs.getCommunity());
+        System.out.println("Cats.Community = " + Cats.getCommunity());
+       zdrcat.barking2();
+    }
 }
